@@ -1,12 +1,16 @@
-import { useState } from 'react'
-import './App.css'
-
+import { useState } from "react";
+import "./App.css";
+import Header from "./components/Header";
+import Banner from "./components/Banner";
+import ProductGrid from "./components/ProductGrid";
 function App() {
-    return (
+  return (
     <>
-      <h1>Hello World</h1>
+      <Header />
+      <Banner />
+      <ProductGrid />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
