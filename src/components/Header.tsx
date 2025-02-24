@@ -36,8 +36,8 @@ export default function Header() {
       </div>
       <Input className="mx-4 w-3/4" />
       <div className="flex items-center gap-4">
-        <CartIcon />
         <AccountIcon />
+        <CartIcon />
       </div>
     </header>
   );

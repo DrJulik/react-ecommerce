@@ -1,3 +1,5 @@
+import ProductItem from "./ProductItem";
+
 const ProductGrid = () => {
   return (
     <div className="w-3/4 mx-auto py-4">
@@ -6,34 +8,13 @@ const ProductGrid = () => {
         <p>Description</p>
       </div>
       <div className="grid grid-cols-4 gap-4">
-        <div className="bg-white rounded-lg py-4">
-          <img
-            src="https://preppykitchen.com/wp-content/uploads/2017/07/Ultimate-Funfetti-feature.jpg"
-            alt="Product"
-            className="w-full h-48 object-cover rounded-lg"
-          />
-        </div>
-        <div className="bg-white rounded-lg py-4">
-          <img
-            src="https://preppykitchen.com/wp-content/uploads/2017/07/Ultimate-Funfetti-feature.jpg"
-            alt="Product"
-            className="w-full h-48 object-cover rounded-lg"
-          />
-        </div>
-        <div className="bg-white rounded-lg py-4">
-          <img
-            src="https://preppykitchen.com/wp-content/uploads/2017/07/Ultimate-Funfetti-feature.jpg"
-            alt="Product"
-            className="w-full h-48 object-cover rounded-lg"
-          />
-        </div>
-        <div className="bg-white rounded-lg py-4">
-          <img
-            src="https://preppykitchen.com/wp-content/uploads/2017/07/Ultimate-Funfetti-feature.jpg"
-            alt="Product"
-            className="w-full h-48 object-cover rounded-lg"
-          />
-        </div>
+        <ProductItem />
+        <ProductItem />
+        <ProductItem />
+        <ProductItem />
+        <ProductItem />
+        <ProductItem />
+        <ProductItem />
       </div>
     </div>
   );
